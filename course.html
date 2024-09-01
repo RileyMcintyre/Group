@@ -11,6 +11,31 @@
     <style>
        
   /* Common styling for all cards */
+  .separator {
+  position: fixed; /* Fixes the line in place */
+  top: 56px; /* Adjust this value to match the height of your navbar */
+  height: 8px; /* Thickness of the line */
+  background-color: black; /* Line color */
+  width: 100%; /* Full width */
+  margin: 0; /* Remove default margins */
+  z-index: 1020; /* Ensure it's above other content */
+}
+  .card-header, .card-title-number {
+  background-color: #f8f9fa; /* Light background color for contrast */
+  color: #343a40; /* Dark color for the text */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  padding: 10px; /* Add some padding */
+  border-bottom: 1px solid #dee2e6; /* Optional: add a border for better separation */
+  text-align: center; /* Center the text within the header */
+}
+  .card-header {
+  background-color: #f8f9fa; /* Light background color for contrast */
+  color: #343a40; /* Dark color for the text */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  padding: 10px; /* Add some padding */
+  border-top: 1px solid #dee2e6; /* Optional: add a border for better separation */
+  text-align: center; /* Center the text within the header */
+}
   .flex-center-container {
   display: flex; /* Defines a flex container */
   justify-content: center; /* Centers items horizontally */
@@ -86,7 +111,9 @@
                     </form>
                 </div>
             </div>
+            
         </nav>
+        <div class="separator"></div> 
     </header>
 
     <main>
@@ -147,7 +174,7 @@
                 <!-- Piano Card -->
                 <div class="col-sm-4 p-3 d-flex align-items-stretch">
                     <div class="card mb-3 text-center Piano-card">
-                        <h3 class="card-header">4</h3>
+                        <h3 class="card-title-number">4</h3>
                         <div class="card-body">
                             <h5 class="card-title">Piano</h5>
                             <h6 class="card-subtitle text-muted">[11:00]</h6>
@@ -163,7 +190,7 @@
                 <!-- Guitar Card -->
                 <div class="col-sm-4 p-3 d-flex align-items-stretch">
                     <div class="card mb-3 text-center Guitar-card">
-                        <h3 class="card-header">5</h3>
+                        <h3 class="card-title-number">5</h3>
                         <div class="card-body">
                             <h5 class="card-title">Guitar</h5>
                             <h6 class="card-subtitle text-muted">[11:30]</h6>
@@ -179,7 +206,7 @@
                 <!-- Kapa Haka Card -->
                 <div class="col-sm-4 p-3 d-flex align-items-stretch">
                     <div class="card mb-3 text-center"> <!-- Removed KapaHaka-card class -->
-                        <h3 class="card-header">6</h3>
+                        <h3 class="card-title-number">6</h3>
                         <div class="card-body">
                             <h5 class="card-title">Kapa Haka</h5>
                             <h6 class="card-subtitle text-muted">[12:00]</h6>
