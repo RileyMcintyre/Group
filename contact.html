@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The College Of Arts</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+     <link href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+        }
+ 
+        /* Navbar Styling */
+        .navbar {
+            background-color: #f06666;
+            border-bottom: 2px solid #000000;
+            padding: 10px 20px;
+        }
+ 
+        /* .navbar-brand {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000000;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 30px;
+        }
+  */
+        .navbar-nav .nav-link {
+            color: #000000;
+            font-size: 16px;
+            margin-left: 20px;
+            padding: 0;
+        }
+ 
+        /* .navbar-nav .nav-link:hover {
+            color: #000000;
+            text-decoration: none;
+            border-bottom: 2px solid #000000;
+        } */
+ 
+        /* .search-bar {
+            width: 200px;
+            transition: width 0.4s ease-in-out;
+            border-radius: 4px;
+            border: 1px solid #999999;
+            padding: 5px 10px;
+        } */
+ 
+        .search-bar:focus {
+            width: 300px;
+        }
+ 
+        .search-button {
+            background-color: #999999;
+            border: none;
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-left: 5px;
+        }
+ 
+        .header-section {
+            background-color: #ff4747;
+            padding: 80px;
+            text-align: center;
+            color: #ffffff;
+            border-bottom: 5px solid #000000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+ 
+        .header-section p {
+            font-size: 20px;
+        }
+ 
+        .header-section a {
+            color: #ffffff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+ 
+        .header-section a:hover {
+            color: #000000;
+            text-decoration: none;
+        }
+ 
+        .contact-form-section {
+            padding: 60px 0;
+            background-color: #f5f5f5;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .contact-form-section .form-label {
+            font-weight: bold;
+            color: #000000;
+        }
+ 
+        .contact-form-section .form-control {
+            border-radius: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .contact-form-section .btn {
+            background-color: #ff4747;
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 0;
+            width: 120px;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+ 
+        .contact-form-section .btn:hover {
+            background-color: #ff2f2f;
+        }
+ 
+        .footer {
+            /* background-color: #000000; */
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+ 
+        .footer .footer-icons i {
+            font-size: 28px;
+            margin: 0 15px;
+            color: #ffffff;
+            transition: transform 0.3s, color 0.3s;
+        }
+ 
+        .footer .footer-icons i:hover {
+            transform: scale(1.3);
+            color: #ff4747;
+        }
+ 
+        .footer p {
+            margin: 10px 0;
+            font-weight: 600;
+        }
+ 
+        .footer p:first-child {
+            margin-top: 20px;
+        }
+ 
+        .footer-icons {
+            margin-bottom: 20px;
+        }
+ 
+        /* Scroll to top button */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #ff4747;
+            color: #ffffff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+ 
+        .scroll-to-top:hover {
+            background-color: #ff2f2f;
+        }
+ 
+        .scroll-to-top i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-pink NavHome "   data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">The College of Arts</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">kāinga  l Home
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="course.html">  Nga Akoranga l Course</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2  "  type="search" placeholder="Search">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+ 
+    <!-- Header Section -->
+    <div class="header-section">
+        <p>We invite you to join our creative community and explore the endless possibilities at the College of Arts. For more information or to schedule a visit, please reach out to us through our <a href="#">contact form</a> or connect with us via phone or email. Let’s embark on this artistic journey together!</p>
+    </div>
+ 
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <form class="col-md-6 offset-md-3">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+                <div class="mb-3">
+                    <label for="question" class="form-label">Question</label>
+                    <textarea class="form-control" id="question"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <div class="mt-4"></div>
+        </div>
+    </section>
+ 
+    <!-- Footer Section -->
+    <footer>
+        <div class=" bg-dark text-center p-2"  >
+          <a href="https://www.facebook.com "  target="_blank" class="btn  row bi bi-facebook" style="color:#ffffff; font-size: 60px; padding-right:15%" ><img src="img(Home)/Screenshot 2024-09-01 144918.png"alt="facebook"></a>
+          <a href="https://www.instagram.com" target="_blank" class="btn  row bi bi-instagram" style="color:#ffffff; font-size: 60px; padding-right:15%;"  ><img src="img(Home)/Screenshot 2024-09-01 144918.png" alt="instagram"></a>
+          <a href="https://x.com/home?lang=en" target="_blank" class="btn  row bi bi-twitter" style="color:#ffffff; font-size: 60px" > <img src="img(Home)/Screenshot 2024-09-01 144918.png" alt="twitter/x"></a>
+          <p style="color:#ffffff; margin-top: -90px;"> Address: 1234 Queen Street, Auckland City. 1001</p>
+          <p style="color:#ffffff;"> 022 33334114</p>
+          <p style="color:#ffffff;"> © 2024 The College of Arts. All Rights Reserved.</p>
+          </div>
+    </footer>
+ 
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+ 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
+ 
