@@ -28,6 +28,28 @@
             border-bottom: 5px solid #000000;
             /* padding: 10px 20px; */
         }
+         /* Header Section Styling */
+         .header-section {
+            background-color: #f74343;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-section h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            color: #000000;
+        }
+
+        .header-section p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: #000000;
+            max-width: 800px;
+            margin: 20px auto;
+        }
 
         /* .navbar-brand {
             font-size: 18px;
@@ -49,12 +71,14 @@
             text-decoration: none;
             border-bottom: 2px solid #000000;
         } */
+         h                 
 
+         
         .search-bar {
             width: 200px;
             transition: width 0.4s ease-in-out;
             border-radius: 4px;
-            border: 1px solid #999999;
+            border: 1px solid #ffffff;
             padding: 5px 10px;
         }
 
@@ -63,7 +87,7 @@
         }
 
         .search-button {
-            background-color: #999999;
+            background-color: #ffffff;
             border: none;
             color: #ffffff;
             padding: 5px 10px;
@@ -71,7 +95,7 @@
             margin-left: 5px;
         }
 
-
+         
 
         .contact-form-section {
             padding: 60px 0;
@@ -94,7 +118,7 @@
             color: #ffffff;
             font-weight: bold;
             border-radius: 0;
-            width: 120px;
+            width: 120x;
             font-size: 18px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: background-color 0.3s ease;
@@ -138,28 +162,7 @@
             margin-bottom: 20px;
         }
 
-        /* Scroll to top button */
-        .scroll-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background-color: #ff4747;
-            color: #ffffff;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s ease;
-        }
-
-        .scroll-to-top:hover {
-            background-color: #ff2f2f;
-        }
-
-        .scroll-to-top i {
-            font-size: 20px;
-        }
+    
     </style>
 </head>
 <body>
@@ -175,7 +178,7 @@
               <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="index.html">kāinga  l Home
+                    <a class="nav-link" href="index.html">kāinga  l Home
                       <span class="visually-hidden">(current)</span>
                     </a>
                   </li>
@@ -183,7 +186,7 @@
                     <a class="nav-link" href="course.html">  Nga Akoranga l Course</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
                   </li> 
                 </ul>
                 <form class="d-flex">
@@ -194,11 +197,12 @@
             </div>
           </nav>
     </header>
-
-    <!-- Header Section -->
-    <div class="header-section">
-        <p>We invite you to join our creative community and explore the endless possibilities at the College of Arts. For more information or to schedule a visit, please reach out to us through our <a href="#">contact form</a> or connect with us via phone or email. Let’s embark on this artistic journey together!</p>
-    </div>
+    <section class="header-section">
+        <h1>Welcome to The College of Arts</h1>
+        <p>
+            At The College of Arts, we believe in nurturing creativity and innovation. Our institution is a melting pot of cultures, ideas, and talents, where students can explore the realms of fine arts, design, music, and much more. Join us in a journey to discover the power of the arts in shaping the world, building meaningful connections, and transforming lives.
+        </p>
+    </section>
 
     <!-- Contact Form Section -->
     <section class="contact-form-section">
